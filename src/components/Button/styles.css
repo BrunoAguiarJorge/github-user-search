@@ -1,0 +1,27 @@
+.main-btn-style {
+    background: #1890FF;
+    border-radius: 4px; 
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-color: #1890FF;
+   
+}
+
+.main-btn-title {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+   padding: 8px 18px 8px 18px;
+   
+
+
+}
