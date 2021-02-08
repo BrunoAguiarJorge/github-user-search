@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.css';
 import './../../../src/App.css';
 import Button from '../../components/Button';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -23,7 +24,9 @@ const Home = () => {
                 </p>
                 </div>
             <div className="btn-home">
-           <Button />
+                <Link to="/search">
+           <Button text="Começar" />
+           </Link>
            </div>
         </>
     );
